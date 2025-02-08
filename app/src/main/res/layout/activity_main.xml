@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    android:background="@android:color/background_light">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/start">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Başlamadan önce süre girin"
+            android:textSize="24sp"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/timeInput"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="Süreyi gir (sn)"
+            android:inputType="number"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@android:drawable/edit_text"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="250dp"
+            android:layout_height="10dp"
+            android:progress="0"
+            android:max="100"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0% tamamlandı"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Başlat"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4CAF50"
+        android:elevation="8dp"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Durdur"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#F44336"
+        android:elevation="8dp"
+        app:layout_constraintTop_toBottomOf="@id/start"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/nightModeButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Gece Modu"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3E3E3E"
+        android:elevation="6dp"
+        app:layout_constraintTop_toBottomOf="@id/stop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
