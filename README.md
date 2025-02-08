@@ -32,3 +32,9 @@ SharedPreferences: Gece modu tercihini kaydetme
 Handler & Runnable: Zamanlayıcı fonksiyonları
 
 AppCompatDelegate: Gece modu desteği
+
+
+![Ekran Görüntüsü](https://i.hizliresim.com/s7i9rd3.png)
+
+
+"C:\Users\ozan_\OneDrive\Masaüstü\Ekran görüntüsü 2025-02-08 234438.png"
