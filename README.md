@@ -34,7 +34,18 @@ Handler & Runnable: Zamanlayıcı fonksiyonları
 AppCompatDelegate: Gece modu desteği
 
 
-![Ekran Görüntüsü](https://i.hizliresim.com/s7i9rd3.png)
+📷 Uygulama Fotografları
 
 
-"C:\Users\ozan_\OneDrive\Masaüstü\Ekran görüntüsü 2025-02-08 234438.png"
+![Ekran görüntüsü 2025-02-08 234438](https://github.com/user-attachments/assets/8970e388-1597-4200-810c-9878d447a202)
+
+![Ekran görüntüsü 2025-02-08 234445](https://github.com/user-attachments/assets/d5bbf417-bb56-4b53-8fd6-899b5c19b1fa)
+
+![Ekran görüntüsü 2025-02-08 234454](https://github.com/user-attachments/assets/6b041e5a-b3dd-4133-a050-2609320371d0)
+
+
+
+
+
+
+
